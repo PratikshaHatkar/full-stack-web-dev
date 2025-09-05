@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        font-size: 12px;
+      }
+      .box {
+        border: 2px solid black;
+        /* width: 204px;*/
+        width: 80vw;
+        background-color: aquamarine;
+        margin: auto;
+        height: 10vh;
+      }
+      .container {
+        border: 2px solid black;
+        /* width: 204px;*/
+        width: 80vw;
+        background-color: aquamarine;
+        margin: 23px auto;
+        /* height: 80vh;*/
+        min-height: 80vh;
+        font-size: 16px;
+      }
+
+      .container > div {
+        font-size: 2rem;
+        border: 2px solid red;
+        width: 50%;
+      }
+      .container > div > div {
+        border: 2px solid blue;
+        width: 50%;
+      }
+      .mycont {
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin: 23px auto;
+        color: black;
+        font-size: 22px;
+        width: 100vmin;
+        width: 80vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">This is a box</div>
+    <div class="container">
+      <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui natus,
+        aspernatur velit error porro reiciendis reprehenderit magnam aliquam!
+        Voluptatem ipsam rem ullam quae atque tempore tenetur voluptatum
+        incidunt laboriosam aliquid.
+      
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+        voluptates doloribus repellendus ipsa consectetur. Quasi odit eos
+        delectus corporis ullam nihil odio aperiam vitae voluptatum? Quis, non
+        beatae? Obcaecati laudantium doloribus, quis vel possimus provident ad
+        dignissimos saepe illo molestias, cum, repellendus nesciunt illum!
+        Maiores dignissimos a dicta rem sint.
+      </div>
+    </div>
+    </div>
+    <div class="mycont">This is another container</div>
+  </body>
+</html>
